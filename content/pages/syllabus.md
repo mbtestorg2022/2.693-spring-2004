@@ -60,44 +60,489 @@ JDI = Dr. James D. Irish
 
 The calendar below provides information on the course's lecture (L) and laboratory (Lab) sessions.
 
-| SES # | TOPICS | INSTRUCTORS |
-| --- | --- | --- |
-| L1 | Introduction to Class, Requirements and Get Student Interests/Focus | AJW, JDI |
-| L2 | Transducers, Instrument Systems and Limits to Measurements | AJW, JDI |
-| Lab 1 | Background Lab: Electronics |  |
-| L3 | Introduction to Sampling Theory, Statistics, Fourier Transforms, Filters and Filtering | JDI |
-| L4 | Filters and Filtering (cont.), Sampling Theorem, Aliasing, Nyquist Frequency | JDI |
-| Lab 2 | Background Lab: Circuit Construction, Soldering, Scopes, DVM |  |
-| L5 | Power Spectra, Coherence, Confidence Limits | JDI |
-| Lab 3 | Background Lab: MAVS Circuit Analysis, Discussion, Testing |  |
-| L6 | Digitizing, Ideal A/C, Frequency Counting, Least Count Error | JDI |
-| L7 | Calibrations, Static, Dynamic and Sensor Response | JDI |
-| Lab 4 | Background Lab: Materials for Use in Ocean |  |
-| L8 | Sensor Noise, Signal to Noise and Frequency Response Effects | JDI |
-| L9 | Sea Water Properties, Distributions, Equation of State of Sea Water | JDI |
-| Lab 5 | Background Lab: Compass, Tilt, Motion, Acoustic Releases, Pingers, Acoustic Locators |  |
-| L10 | Pressure - Temperature Sensors/Measurements and Standards | JDI |
-| L11 | Conductivity/Salinity Sensors/Measurements and Standards | JDI |
-| Lab 6 | Background Lab: Calibrations Part 1 |  |
-| L12 | CTDs - Profiling, Towed, Self-contained | JDI |
-| L13 | Buoys, Moorings, Compliance | JDI |
-| Lab 7 | Background Lab: Calibrations Part 2 |  |
-| L14 | Ropes, Fibers, Cables, Compliant Elements | Guest Lecturer: Walter Paul |
-| L15 | Data Systems, Recorders, A/D's, Microprocessors and Telemetry | Guest Lecturer: Al Bradley |
-| Lab 8 | Cruise Lab: Divide Class into Groups, Start Work on Instruments |  |
-| L16 | Eulerian Current Meters - VACM, VMCM, ACM, BASS | AJW |
-| L17 | Lagrangian Currents - Draper LCD, TriStar, Swallow Float, SOFAR, RAFOS | AJW |
-| Lab 9 | Cruise Lab: Instruments (cont.) |  |
-| L18 | Acoustic Current Meters - ADV, ADCP, LDV | AJW |
-| L19 | Acoustic Backscattering and Sediment Transport - ABS, SSS | Guest Lecturer: Peter Traykovski |
-| Lab 10 | Cruise Lab: Final Instrument Prep/Checkout |  |
-| Lab 11 | Cruise Lab: Deployment and survey During Whole Day |  |
-| L20 | Meteorology (Winds, Pressure, Temperature, Relative Humidity, Radiation) | Guest Lecturer: Jim Edson |
-| L21 | Platforms - Drifters, Ships, Bottom-Mounted, AUV, ROV | Guest Lecturer: Hanu Singh |
-| Lab 12 | Cruise Lab: Recover Instruments | Guest Lecturer: Hanu Singh |
-| L22 | Imaging |  |
-| L23 | Bio-optical - Fluorometers, Transmissometers, OBS, Radiometers, PAR | Guest Lecturer: Peter Traykovski |
-| Lab 13 | Cruise Lab: Analysis and Discussion |  |
-| L24 | Remote Sensing - Satellite, Radar, VHF Radar, LDV, ADCP, and ADV |  |
-| L25 | Other Topics of Student Interest |  |
-| Lab 14 | Oral Presentations and written Reports of Cruise Results |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+INSTRUCTORS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to Class, Requirements and Get Student Interests/Focus
+{{< tdclose >}}
+{{< tdopen >}}
+AJW, JDI
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L2
+{{< tdclose >}}
+{{< tdopen >}}
+Transducers, Instrument Systems and Limits to Measurements
+{{< tdclose >}}
+{{< tdopen >}}
+AJW, JDI
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 1
+{{< tdclose >}}
+{{< tdopen >}}
+Background Lab: Electronics
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L3
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to Sampling Theory, Statistics, Fourier Transforms, Filters and Filtering
+{{< tdclose >}}
+{{< tdopen >}}
+JDI
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L4
+{{< tdclose >}}
+{{< tdopen >}}
+Filters and Filtering (cont.), Sampling Theorem, Aliasing, Nyquist Frequency
+{{< tdclose >}}
+{{< tdopen >}}
+JDI
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 2
+{{< tdclose >}}
+{{< tdopen >}}
+Background Lab: Circuit Construction, Soldering, Scopes, DVM
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L5
+{{< tdclose >}}
+{{< tdopen >}}
+Power Spectra, Coherence, Confidence Limits
+{{< tdclose >}}
+{{< tdopen >}}
+JDI
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 3
+{{< tdclose >}}
+{{< tdopen >}}
+Background Lab: MAVS Circuit Analysis, Discussion, Testing
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L6
+{{< tdclose >}}
+{{< tdopen >}}
+Digitizing, Ideal A/C, Frequency Counting, Least Count Error
+{{< tdclose >}}
+{{< tdopen >}}
+JDI
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L7
+{{< tdclose >}}
+{{< tdopen >}}
+Calibrations, Static, Dynamic and Sensor Response
+{{< tdclose >}}
+{{< tdopen >}}
+JDI
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 4
+{{< tdclose >}}
+{{< tdopen >}}
+Background Lab: Materials for Use in Ocean
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L8
+{{< tdclose >}}
+{{< tdopen >}}
+Sensor Noise, Signal to Noise and Frequency Response Effects
+{{< tdclose >}}
+{{< tdopen >}}
+JDI
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L9
+{{< tdclose >}}
+{{< tdopen >}}
+Sea Water Properties, Distributions, Equation of State of Sea Water
+{{< tdclose >}}
+{{< tdopen >}}
+JDI
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 5
+{{< tdclose >}}
+{{< tdopen >}}
+Background Lab: Compass, Tilt, Motion, Acoustic Releases, Pingers, Acoustic Locators
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L10
+{{< tdclose >}}
+{{< tdopen >}}
+Pressure - Temperature Sensors/Measurements and Standards
+{{< tdclose >}}
+{{< tdopen >}}
+JDI
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L11
+{{< tdclose >}}
+{{< tdopen >}}
+Conductivity/Salinity Sensors/Measurements and Standards
+{{< tdclose >}}
+{{< tdopen >}}
+JDI
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 6
+{{< tdclose >}}
+{{< tdopen >}}
+Background Lab: Calibrations Part 1
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L12
+{{< tdclose >}}
+{{< tdopen >}}
+CTDs - Profiling, Towed, Self-contained
+{{< tdclose >}}
+{{< tdopen >}}
+JDI
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L13
+{{< tdclose >}}
+{{< tdopen >}}
+Buoys, Moorings, Compliance
+{{< tdclose >}}
+{{< tdopen >}}
+JDI
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 7
+{{< tdclose >}}
+{{< tdopen >}}
+Background Lab: Calibrations Part 2
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L14
+{{< tdclose >}}
+{{< tdopen >}}
+Ropes, Fibers, Cables, Compliant Elements
+{{< tdclose >}}
+{{< tdopen >}}
+Guest Lecturer: Walter Paul
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L15
+{{< tdclose >}}
+{{< tdopen >}}
+Data Systems, Recorders, A/D's, Microprocessors and Telemetry
+{{< tdclose >}}
+{{< tdopen >}}
+Guest Lecturer: Al Bradley
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 8
+{{< tdclose >}}
+{{< tdopen >}}
+Cruise Lab: Divide Class into Groups, Start Work on Instruments
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L16
+{{< tdclose >}}
+{{< tdopen >}}
+Eulerian Current Meters - VACM, VMCM, ACM, BASS
+{{< tdclose >}}
+{{< tdopen >}}
+AJW
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L17
+{{< tdclose >}}
+{{< tdopen >}}
+Lagrangian Currents - Draper LCD, TriStar, Swallow Float, SOFAR, RAFOS
+{{< tdclose >}}
+{{< tdopen >}}
+AJW
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 9
+{{< tdclose >}}
+{{< tdopen >}}
+Cruise Lab: Instruments (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L18
+{{< tdclose >}}
+{{< tdopen >}}
+Acoustic Current Meters - ADV, ADCP, LDV
+{{< tdclose >}}
+{{< tdopen >}}
+AJW
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L19
+{{< tdclose >}}
+{{< tdopen >}}
+Acoustic Backscattering and Sediment Transport - ABS, SSS
+{{< tdclose >}}
+{{< tdopen >}}
+Guest Lecturer: Peter Traykovski
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 10
+{{< tdclose >}}
+{{< tdopen >}}
+Cruise Lab: Final Instrument Prep/Checkout
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 11
+{{< tdclose >}}
+{{< tdopen >}}
+Cruise Lab: Deployment and survey During Whole Day
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L20
+{{< tdclose >}}
+{{< tdopen >}}
+Meteorology (Winds, Pressure, Temperature, Relative Humidity, Radiation)
+{{< tdclose >}}
+{{< tdopen >}}
+Guest Lecturer: Jim Edson
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L21
+{{< tdclose >}}
+{{< tdopen >}}
+Platforms - Drifters, Ships, Bottom-Mounted, AUV, ROV
+{{< tdclose >}}
+{{< tdopen >}}
+Guest Lecturer: Hanu Singh
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 12
+{{< tdclose >}}
+{{< tdopen >}}
+Cruise Lab: Recover Instruments
+{{< tdclose >}}
+{{< tdopen >}}
+Guest Lecturer: Hanu Singh
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L22
+{{< tdclose >}}
+{{< tdopen >}}
+Imaging
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L23
+{{< tdclose >}}
+{{< tdopen >}}
+Bio-optical - Fluorometers, Transmissometers, OBS, Radiometers, PAR
+{{< tdclose >}}
+{{< tdopen >}}
+Guest Lecturer: Peter Traykovski
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 13
+{{< tdclose >}}
+{{< tdopen >}}
+Cruise Lab: Analysis and Discussion
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L24
+{{< tdclose >}}
+{{< tdopen >}}
+Remote Sensing - Satellite, Radar, VHF Radar, LDV, ADCP, and ADV
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L25
+{{< tdclose >}}
+{{< tdopen >}}
+Other Topics of Student Interest
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 14
+{{< tdclose >}}
+{{< tdopen >}}
+Oral Presentations and written Reports of Cruise Results
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

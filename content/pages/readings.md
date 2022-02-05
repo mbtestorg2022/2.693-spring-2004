@@ -11,47 +11,668 @@ Course Notes
 
 The table below provides information on the course's lecture (L) and laboratory (Lab) sessions.
 
-| SES # | TOPICS | READINGS | INSTRUCTORS |
-| --- | --- | --- | --- |
-| L1 | Introduction to Class, Requirements and get Student Interests/Focus | Irish - Introduction to the Course ([PDF]({{< baseurl >}}/resources/lec1_irish))  {{< br >}}  {{< br >}}Williams - Instrument Systems and Limits to Measurement ([PDF]({{< baseurl >}}/resources/lec1_2)) |  {{< br >}}{{< br >}} Irish {{< br >}}{{< br >}} Williams {{< br >}}{{< br >}}  |
-| L2 | Transducers, Instrument Systems and Limits to Measurements |  {{< br >}}{{< br >}} Irish - Instrumentation Specifications ([PDF]({{< baseurl >}}/resources/lec2_irish))  {{< br >}}  {{< br >}}Williams - Instrument Systems and Limits to Measurement ([PDF]({{< baseurl >}}/resources/lec1_2)) {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Irish {{< br >}}{{< br >}} Williams {{< br >}}{{< br >}}  |
-| Lab 1 | Background Lab: Electronics | &nbsp; |
-| L3 | Introduction to Sampling Theory, Statistics, Fourier Transforms, Filters and Filtering | Introduction to Sampling Theory and Data Analysis ([PDF]({{< baseurl >}}/resources/part1_smplngthry)) | Irish |
-| L4 | Filters and Filtering (cont.), Sampling Theorem, Aliasing, Nyquist Frequency | Introduction to Sampling Theory and Data Analysis ([PDF]({{< baseurl >}}/resources/part1_smplngthry)) | Irish |
-| Lab 2 | Background Lab: Circuit Construction, Soldering, Scopes, DVM | &nbsp; |
-| L5 | Power Spectra, Coherence, Confidence Limits | Introduction to Sampling Theory and Data Analysis ([PDF]({{< baseurl >}}/resources/part1_smplngthry)) | Irish |
-| Lab 3 | Background Lab: MAVS Circuit Analysis, Discussion, Testing | &nbsp; |
-| L6 | Digitizing, Ideal A/C, Frequency Counting, Least Count Error |  {{< br >}}{{< br >}} The Sampling Process ([PDF]({{< baseurl >}}/resources/part2_smplingpro))  {{< br >}}  {{< br >}}Sampling the Environment Properly ([PDF]({{< baseurl >}}/resources/part3_smp_enviro)) {{< br >}}{{< br >}}  | Irish |
-| L7 | Calibrations, Static, Dynamic and Sensor Response | Calibrations: Static and Dynamic ([PDF]({{< baseurl >}}/resources/part4_calibratio)) | Irish |
-| Lab 4 | Background Lab: Hardware for Use in the Ocean | &nbsp; |
-| L8 | Sensor Noise, Signal to Noise and Frequency Response Effects | Instrumentation Specifications ([PDF]({{< baseurl >}}/resources/lec2_irish)) | Irish |
-| L9 | Sea Water Properties, Distributions, Equation of State of Sea Water |  {{< br >}}{{< br >}} Measurement of the Physical Properties of Seawater ([PDF]({{< baseurl >}}/resources/seawater))  {{< br >}}  {{< br >}}_Supplemental Reading_  {{< br >}}Williams - Water Properties, CTD and High Precision Digitizers ([PDF]({{< baseurl >}}/resources/lec9_12)) {{< br >}}{{< br >}}  | Irish |
-| Lab 5 | Background Lab: Compass, Tilt, Motion, Acoustic Releases, Pingers, Acoustic Locators | &nbsp; |
-| L10 | Pressure - Temperature Sensors/Measurements and Standards |  {{< br >}}{{< br >}} Measurement of the Physical Properties of Seawater ([PDF]({{< baseurl >}}/resources/seawater))  {{< br >}}  {{< br >}}_Supplemental Reading  {{< br >}}_Williams - Water Properties, CTD and High Precision Digitizers ([PDF]({{< baseurl >}}/resources/lec9_12)) {{< br >}}{{< br >}}  | Irish |
-| L11 | Conductivity/Salinity Sensors/Measurements and Standards |  {{< br >}}{{< br >}} Measurement of the Physical Properties of Seawater ([PDF]({{< baseurl >}}/resources/seawater))  {{< br >}}  {{< br >}}_Supplemental Reading  {{< br >}}_Williams - Water Properties, CTD and High Precision Digitizers ([PDF]({{< baseurl >}}/resources/lec9_12)) {{< br >}}{{< br >}}  | Irish |
-| Lab 6 | Background Lab: Calibrations Part 1 | &nbsp; |
-| L12 | CTDs - Profiling, Towed, Self-contained | Measurement of the Physical Properties of Seawater ([PDF]({{< baseurl >}}/resources/seawater))  {{< br >}}  {{< br >}}_Supplemental Reading  {{< br >}}_Williams - Water Properties, CTD and High Precision Digitizers ([PDF]({{< baseurl >}}/resources/lec9_12)) | Irish |
-| L13 | Buoys, Moorings, Compliance | &nbsp; | Irish |
-| Lab 7 | Background Lab: Calibrations Part 2 | &nbsp; |
-| L14 | Ropes, Fibers, Cables, Compliant Elements | &nbsp; | Walter Paul |
-| L15 | Data Systems, Recorders, A/D's, Microprocessors and Telemetry | Williams - Microprocessors, Embedded Processors, Modern Sensing Systems ([PDF]({{< baseurl >}}/resources/lec15)) | Al Bradley |
-| Lab 8 | Cruise Lab: Divide Class into Groups, Start Work on Instruments | &nbsp; |
-| L16 | Eulerian Current Meters - VACM, VMCM, ACM, BASS | Eulerian Current Measurements and the Acoustic Current Meter ([PDF]({{< baseurl >}}/resources/lec16)) | Williams |
-| L17 | Lagrangian Currents - Draper LCD, TriStar, Swallow Float, SOFAR, RAFOS | Lagrangian Current Measurements and Integrating Current Meters ([PDF]({{< baseurl >}}/resources/lec17)) | Williams |
-| Lab 9 | Cruise Lab: Instruments (cont.) | &nbsp; |
-| L18 | Acoustic Current Meters - ADV, ADCP, LDV | Modular Acoustic Velocity Sensor - A Commercial Prototype ([PDF]({{< baseurl >}}/resources/lec18)) | Williams |
-| L19 | Acoustic Backscattering and Sediment Transport - ABS, SSS | &nbsp; | Peter Traykovski |
-| Lab 10 | Cruise Lab: Final Instrument Preparation/Checkout | &nbsp; |
-| Lab 11 | Cruise Lab: Deployment and Survey during Whole Day | &nbsp; |
-| L20 | Meteorology (Winds, Pressure, Temperature, Relative Humidity, Radiation) | &nbsp; | Jim Edson |
-| L21 | Platforms - Drifters, Ships, Bottom-mounted, AUV, ROV | &nbsp; | Hanu Singh |
-| Lab 12 | Cruise Lab: Recover Instruments | &nbsp; |
-| L22 | Imaging | &nbsp; | Hanu Singh |
-| L23 | Bio-optical - Fluorometers, Transmissometers, OBS, Radiometers, PAR | Williams - Optical Instrumentation ([PDF]({{< baseurl >}}/resources/lec23)) | Peter Traykovski |
-| Lab 13 | Cruise Lab: Analysis and Discussion | &nbsp; |
-| L24 | Remote Sensing - Satellite, Radar, VHF Radar, LDV, ADCP, and ADV | Remote Sensing ([PDF]({{< baseurl >}}/resources/lec24)) | Williams |
-| L25 | Other Topics of Student Interest |  {{< br >}}{{< br >}} Optical Sensors Shadowgraph and Nephelometer ([PDF]({{< baseurl >}}/resources/lec25))  {{< br >}}  {{< br >}}Economics of Instrumentation ([PDF]({{< baseurl >}}/resources/lec25b)) {{< br >}}{{< br >}}  | Williams |
-| Lab 14 | Oral Presentations and Written Reports of Cruise Results | &nbsp; |   
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+{{< thopen >}}
+INSTRUCTORS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to Class, Requirements and get Student Interests/Focus
+{{< tdclose >}}
+{{< tdopen >}}
+Irish - Introduction to the Course ([PDF]({{< baseurl >}}/resources/lec1_irish))  
+  
+Williams - Instrument Systems and Limits to Measurement ([PDF]({{< baseurl >}}/resources/lec1_2))
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Irish
+
+Williams
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L2
+{{< tdclose >}}
+{{< tdopen >}}
+Transducers, Instrument Systems and Limits to Measurements
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Irish - Instrumentation Specifications ([PDF]({{< baseurl >}}/resources/lec2_irish))  
+  
+Williams - Instrument Systems and Limits to Measurement ([PDF]({{< baseurl >}}/resources/lec1_2))
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Irish
+
+Williams
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 1
+{{< tdclose >}}
+{{< tdopen >}}
+Background Lab: Electronics
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L3
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to Sampling Theory, Statistics, Fourier Transforms, Filters and Filtering
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to Sampling Theory and Data Analysis ([PDF]({{< baseurl >}}/resources/part1_smplngthry))
+{{< tdclose >}}
+{{< tdopen >}}
+Irish
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L4
+{{< tdclose >}}
+{{< tdopen >}}
+Filters and Filtering (cont.), Sampling Theorem, Aliasing, Nyquist Frequency
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to Sampling Theory and Data Analysis ([PDF]({{< baseurl >}}/resources/part1_smplngthry))
+{{< tdclose >}}
+{{< tdopen >}}
+Irish
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 2
+{{< tdclose >}}
+{{< tdopen >}}
+Background Lab: Circuit Construction, Soldering, Scopes, DVM
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L5
+{{< tdclose >}}
+{{< tdopen >}}
+Power Spectra, Coherence, Confidence Limits
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to Sampling Theory and Data Analysis ([PDF]({{< baseurl >}}/resources/part1_smplngthry))
+{{< tdclose >}}
+{{< tdopen >}}
+Irish
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 3
+{{< tdclose >}}
+{{< tdopen >}}
+Background Lab: MAVS Circuit Analysis, Discussion, Testing
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L6
+{{< tdclose >}}
+{{< tdopen >}}
+Digitizing, Ideal A/C, Frequency Counting, Least Count Error
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+The Sampling Process ([PDF]({{< baseurl >}}/resources/part2_smplingpro))  
+  
+Sampling the Environment Properly ([PDF]({{< baseurl >}}/resources/part3_smp_enviro))
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Irish
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L7
+{{< tdclose >}}
+{{< tdopen >}}
+Calibrations, Static, Dynamic and Sensor Response
+{{< tdclose >}}
+{{< tdopen >}}
+Calibrations: Static and Dynamic ([PDF]({{< baseurl >}}/resources/part4_calibratio))
+{{< tdclose >}}
+{{< tdopen >}}
+Irish
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 4
+{{< tdclose >}}
+{{< tdopen >}}
+Background Lab: Hardware for Use in the Ocean
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L8
+{{< tdclose >}}
+{{< tdopen >}}
+Sensor Noise, Signal to Noise and Frequency Response Effects
+{{< tdclose >}}
+{{< tdopen >}}
+Instrumentation Specifications ([PDF]({{< baseurl >}}/resources/lec2_irish))
+{{< tdclose >}}
+{{< tdopen >}}
+Irish
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L9
+{{< tdclose >}}
+{{< tdopen >}}
+Sea Water Properties, Distributions, Equation of State of Sea Water
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Measurement of the Physical Properties of Seawater ([PDF]({{< baseurl >}}/resources/seawater))  
+  
+_Supplemental Reading_  
+Williams - Water Properties, CTD and High Precision Digitizers ([PDF]({{< baseurl >}}/resources/lec9_12))
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Irish
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 5
+{{< tdclose >}}
+{{< tdopen >}}
+Background Lab: Compass, Tilt, Motion, Acoustic Releases, Pingers, Acoustic Locators
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L10
+{{< tdclose >}}
+{{< tdopen >}}
+Pressure - Temperature Sensors/Measurements and Standards
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Measurement of the Physical Properties of Seawater ([PDF]({{< baseurl >}}/resources/seawater))  
+  
+_Supplemental Reading  
+_Williams - Water Properties, CTD and High Precision Digitizers ([PDF]({{< baseurl >}}/resources/lec9_12))
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Irish
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L11
+{{< tdclose >}}
+{{< tdopen >}}
+Conductivity/Salinity Sensors/Measurements and Standards
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Measurement of the Physical Properties of Seawater ([PDF]({{< baseurl >}}/resources/seawater))  
+  
+_Supplemental Reading  
+_Williams - Water Properties, CTD and High Precision Digitizers ([PDF]({{< baseurl >}}/resources/lec9_12))
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Irish
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 6
+{{< tdclose >}}
+{{< tdopen >}}
+Background Lab: Calibrations Part 1
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L12
+{{< tdclose >}}
+{{< tdopen >}}
+CTDs - Profiling, Towed, Self-contained
+{{< tdclose >}}
+{{< tdopen >}}
+Measurement of the Physical Properties of Seawater ([PDF]({{< baseurl >}}/resources/seawater))  
+  
+_Supplemental Reading  
+_Williams - Water Properties, CTD and High Precision Digitizers ([PDF]({{< baseurl >}}/resources/lec9_12))
+{{< tdclose >}}
+{{< tdopen >}}
+Irish
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L13
+{{< tdclose >}}
+{{< tdopen >}}
+Buoys, Moorings, Compliance
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Irish
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 7
+{{< tdclose >}}
+{{< tdopen >}}
+Background Lab: Calibrations Part 2
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L14
+{{< tdclose >}}
+{{< tdopen >}}
+Ropes, Fibers, Cables, Compliant Elements
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Walter Paul
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L15
+{{< tdclose >}}
+{{< tdopen >}}
+Data Systems, Recorders, A/D's, Microprocessors and Telemetry
+{{< tdclose >}}
+{{< tdopen >}}
+Williams - Microprocessors, Embedded Processors, Modern Sensing Systems ([PDF]({{< baseurl >}}/resources/lec15))
+{{< tdclose >}}
+{{< tdopen >}}
+Al Bradley
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 8
+{{< tdclose >}}
+{{< tdopen >}}
+Cruise Lab: Divide Class into Groups, Start Work on Instruments
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L16
+{{< tdclose >}}
+{{< tdopen >}}
+Eulerian Current Meters - VACM, VMCM, ACM, BASS
+{{< tdclose >}}
+{{< tdopen >}}
+Eulerian Current Measurements and the Acoustic Current Meter ([PDF]({{< baseurl >}}/resources/lec16))
+{{< tdclose >}}
+{{< tdopen >}}
+Williams
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L17
+{{< tdclose >}}
+{{< tdopen >}}
+Lagrangian Currents - Draper LCD, TriStar, Swallow Float, SOFAR, RAFOS
+{{< tdclose >}}
+{{< tdopen >}}
+Lagrangian Current Measurements and Integrating Current Meters ([PDF]({{< baseurl >}}/resources/lec17))
+{{< tdclose >}}
+{{< tdopen >}}
+Williams
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 9
+{{< tdclose >}}
+{{< tdopen >}}
+Cruise Lab: Instruments (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L18
+{{< tdclose >}}
+{{< tdopen >}}
+Acoustic Current Meters - ADV, ADCP, LDV
+{{< tdclose >}}
+{{< tdopen >}}
+Modular Acoustic Velocity Sensor - A Commercial Prototype ([PDF]({{< baseurl >}}/resources/lec18))
+{{< tdclose >}}
+{{< tdopen >}}
+Williams
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L19
+{{< tdclose >}}
+{{< tdopen >}}
+Acoustic Backscattering and Sediment Transport - ABS, SSS
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Peter Traykovski
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 10
+{{< tdclose >}}
+{{< tdopen >}}
+Cruise Lab: Final Instrument Preparation/Checkout
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 11
+{{< tdclose >}}
+{{< tdopen >}}
+Cruise Lab: Deployment and Survey during Whole Day
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L20
+{{< tdclose >}}
+{{< tdopen >}}
+Meteorology (Winds, Pressure, Temperature, Relative Humidity, Radiation)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Jim Edson
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L21
+{{< tdclose >}}
+{{< tdopen >}}
+Platforms - Drifters, Ships, Bottom-mounted, AUV, ROV
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Hanu Singh
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 12
+{{< tdclose >}}
+{{< tdopen >}}
+Cruise Lab: Recover Instruments
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L22
+{{< tdclose >}}
+{{< tdopen >}}
+Imaging
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Hanu Singh
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L23
+{{< tdclose >}}
+{{< tdopen >}}
+Bio-optical - Fluorometers, Transmissometers, OBS, Radiometers, PAR
+{{< tdclose >}}
+{{< tdopen >}}
+Williams - Optical Instrumentation ([PDF]({{< baseurl >}}/resources/lec23))
+{{< tdclose >}}
+{{< tdopen >}}
+Peter Traykovski
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 13
+{{< tdclose >}}
+{{< tdopen >}}
+Cruise Lab: Analysis and Discussion
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L24
+{{< tdclose >}}
+{{< tdopen >}}
+Remote Sensing - Satellite, Radar, VHF Radar, LDV, ADCP, and ADV
+{{< tdclose >}}
+{{< tdopen >}}
+Remote Sensing ([PDF]({{< baseurl >}}/resources/lec24))
+{{< tdclose >}}
+{{< tdopen >}}
+Williams
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L25
+{{< tdclose >}}
+{{< tdopen >}}
+Other Topics of Student Interest
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Optical Sensors Shadowgraph and Nephelometer ([PDF]({{< baseurl >}}/resources/lec25))  
+  
+Economics of Instrumentation ([PDF]({{< baseurl >}}/resources/lec25b))
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Williams
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 14
+{{< tdclose >}}
+{{< tdopen >}}
+Oral Presentations and Written Reports of Cruise Results
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 {{< anchor "Supplemental_Readings" >}}{{< /anchor >}}Supplemental Readings
 --------------------------------------------------------------------------
